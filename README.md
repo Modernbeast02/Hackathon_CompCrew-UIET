@@ -1,18 +1,17 @@
-Track: Healthcare  
+Track: Healthcare
 
-**Welcome To Medonate!!**  
- 
-This is the platform where you can volunteer to donate the medicines that not into your use to those who do not afford them or are in emergency. Accompanied by this you can also step foward to donate your blood.
-Every year medicines worth billions of dollars gets expiered  . This platform is made for the nobel cause where those who need the medicines or blood canconnect to those who are willing to donate. Even if small number of paitents get Medonate's benefit, its purpose would be fulfilled!!  
+Welcome To Medonate!!
 
-Future :  
-1.) Connecting Donor and Reciever by a chating interface.  
-2.) Maintaing a feedback system where reciever will rate the donor if he was genuine or not to reduce risk of malpractices.  
+This is the platform where you can volunteer to donate  medicines which are not in use to those who can't afford them or are in dire need of them.
+Apart from this , you can also contribute by  donating  blood. Every year, medicines worth billions of dollars get expired. 
+This platform is especially designed for hapless people  who need medicines or blood and they can easily connect to those who are willing to donate. Even if a few patients get Medonate's benefit, its purpose would be fulfilled!!
 
+Future :
+1.) Connecting Donor and Receiver by a chatting interface. </br>
+2.) Maintaining a feedback system where receiver will rate the donor if he was genuine or not in order to reduce risk of malpractices.
 
-
-Team Name: CompCrew  
-College: Punjab Engineering College, Chandigarh  
+Team Name: CompCrew
+College: Punjab Engineering College, Chandigarh
 
 Team Members:
 
@@ -20,17 +19,12 @@ Team Members:
 Ujjawal Gupta  
 Ankur Gupta**
 
+Techstack Used:
+Express Javascript
+CSS
+MonoDB -> Schema 1) Medicine Schema 2)User Schema
 
-Techstack Used:  
-Express Javascript  
-CSS  
-MonoDB ->   Schema 1) Medicine Schema   2)User Schema    
-
-Medicines which were uploaded by donor were stored in the donor's object itself in the form of vector which had schema of Medicine!!  
-
-
-Javascript  
-
+Medicines which were uploaded by donor were stored in the donor's object itself in the form of vector which had schema of Medicine!!
 
 
 ![image](https://user-images.githubusercontent.com/96478912/189491368-35625e5d-ac3e-4e58-8ae0-f8874f2dc60b.png)
