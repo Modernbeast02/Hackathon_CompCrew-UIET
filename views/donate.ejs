@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/index.js" defer></script>
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/donate.css">
+    <script src="js/loader.js" defer></script>
+</head>
+
+<body style="background:url(Images/background.png) ;">
+   
+    <div id="preloader">
+    </div>
+    <div class="mainheader">
+        <nav>
+            <a href="/">HOME</a>
+            <div class="dropdown">
+                <button class="dropbtn hovernav">SERVICES</button>
+                <div class="dropdown-content">
+                    <a href="/donate">Donate</a>
+                    <a href="/request">Request</a>
+                </div>
+            </div>
+            <a href="#">ABOUT</a>
+            <a href="#" >CONTACT US</a>
+        </nav>
+        <div class="menubtn">
+            <button type="button" class="menuButton pointer"> PROFILE</button>
+        </div>
+    </div>
+    <div class="main">
+        
+        <div class="details">
+            <div class="Enter-name">
+                <h2>Enter Your Details</h2>
+            </div>
+            <div>
+                <form method="post", action="/donate" id="detailss">
+                    <label> Name</label>
+                    <br>
+                    <input type="text" id="name" name="name" placeholder="Enter Your Name">
+                    <br>
+                    <br>
+                    <label>Contact </label>
+                    <br>
+                    <input type="number" id="number" name="phn" placeholder="Enter Your Mobile Number">
+                    <br>
+                    <br>
+                    <label>Address </label>
+                    <br>
+                    <input type="address" id="address" name="address" placeholder="Enter Your Address">
+                    <br>
+                    <br>
+              
+            </div>
+
+
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="details">
+            <div class="Enter-name" style="margin-bottom: 20px;">
+                <h2>Enter Medicine Details</h2>
+            </div>
+            <div id="detailss">
+                <label>
+                    Medicine Name
+                </label>
+                <br>
+                <input type="text" id="name" name="mname" placeholder="Enter Medicine Name">
+                <br>
+                <br>
+                <label>
+                    Quantity 
+                </label>
+                <br>
+                <input type="number" id="number" name="mqua" placeholder="Number of Tablets">
+                <br>
+                <br>
+                <label>
+                    Expiry Date 
+                </label>
+                <br>
+                <input type="datetime-local" id="Test_DatetimeLocal" name="date">
+                <br>
+                <br>
+
+                <label>
+                    Additional Information
+                </label>
+                <br>
+                <input type="text" id="name" name="addinfo">
+                <br>
+                <br>
+                <label>
+                    Would You Volunteer To Donate Blood? 
+                </label>
+                <br> 
+                <div class="checkboxx">
+                    <input type="radio" name="blood" id="blood maidenname" > &nbsp;
+                    <span id="yes">Yes</span> &nbsp;&nbsp;&nbsp;
+                    <input type="radio" name="blood2" id="blood" > &nbsp;
+                    <span id="no">No</span>
+                </div>
+              
+                    <div class="BloodGroups" , id="BloodMoney" >
+                    <label for="cars">Choose Your Blood Group:</label>
+                    <select id="BloodGrp" , style="width:4rem;" name="Bloodgrp">
+                    <option value="O+" selected>O+</option>
+                    <option value="O-">O-</option>
+                    <option value="A+">A+</option>
+                    <option value="A-">A-</option>
+                    <option value="B+">B+</option>
+                    <option value="B-">B-</option>
+                    <option value="AB+">AB+</option>
+                    <option value="AB-">AB-</option>
+                    
+                    
+                    
+                    
+                </select>
+                </div>
+               
+                
+
+                <br><br>
+                <input type="submit" name="submit" value="Submit" id="submit" >
+            </form>
+           
+        </div>
+    </div>
+
+</body>
+
+
+</html>

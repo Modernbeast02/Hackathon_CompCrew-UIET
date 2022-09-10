@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <script src="js/loader.js" defer></script>
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body style="background:url(Images/background.png); width:100%">
+
+    <div id="preloader"></div>
+    <div class="mainheader">
+        <nav style="margin-right:20px">
+            <div> <a href="#" class="hovernav">HOME</a></div>
+
+            <!-- <a href="#volunteer">services</a> -->
+            <div class="dropdown">
+                <button class="dropbtn hovernav">SERVICES</button>
+                <div class="dropdown-content">
+                    <a href="/donate">Donate</a>
+                    <a href="/request">Request</a>
+                </div>
+            </div>
+            <a href="#about" scroll-behavior: smooth class="hovernav">ABOUT</a>
+            <a href="#" target="_blank" class="hovernav">CONTACT</a>
+        </nav>
+        <div class="menubtn">
+            <button type="button" class="menuButton pointer" style="margin-left:10%"> PROFILE</button>
+        </div>
+    </div>
+    <div class='x'>
+
+        <section class="left-sec">
+            <h2> We Are Here For Your Care</h2>
+            <h1> We Are <span class="movingtext"></span> </h1>
+            <p>We are here for your care 24/7. Any help just call us.</p>
+        </section>
+        <div class="mainimg2">
+            <img src="Images/img.png" height=400 width=600 alt="none" style="margin-right: 50px;"></div>
+
+    </div>
+    <div class="main">
+        <h1 padding=20px style="color: #0070fa;margin-bottom:50px; font-family:sans-serif;font-size:80px">
+            About MEDONATE!
+            </h1>
+            <section id="about">
+                <p class="about" style="margin-left: 300px;">
+                    Medicines worth billions of dollars gets expired and wasted every year. Reason is, less usage then the sold quantity. Along with this, there are many paitents who do not afford to purchase medicines . If you see your medical box , you will definitely
+                    find some tablets that were not into your use since long time and are near expiry date!!
+                    <br> What if these tablets reach someone who is in need? Medonate is the platform where you can donate the medicines and blood to those who are in need. Just upload the medicines and those who need will connect with you. Let's together
+                    step foward to help for this nobel job!!
+
+                </p>
+            </section>
+    </div>
+    <section class="volunteer">
+        <div class="Help-And-Recieve">
+            
+                <button type="button" class="button pointer"  onclick="window.location.href='/donate'">Volunteer To Donate</button>
+            
+            <button type="button" class="button pointer" onclick="window.location.href='/request'">Request For Help</button>
+        </div>
+    </section>
+    <div class="space"></div>
+    <hr style="border-top: 3px dashed black;  border-radius: 5px;" />
+
+</body>
+<script src="typed.js/lib/typed.js"></script>
+<script>
+    var options = {
+        strings: ["Helpers", "Philanthropist", "Friendly"],
+        typeSpeed: 50,
+        backspeed: 70,
+        loop: true,
+    };
+    var typed = new Typed(".movingtext", options);
+</script>
+
+</html>

@@ -1,0 +1,158 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">  
+      <link rel="stylesheet" type="text/css" href="css/request.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/loader.js" defer></script>
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body style="background:url(Images/background.png) ;">
+
+    <div id="preloader"></div>
+    <div class="mainheader">
+        <nav style="margin-right:20px">
+            <div> <a href="/" class="hovernav">HOME</a></div>
+
+            <!-- <a href="#volunteer">services</a> -->
+            <div class="dropdown">
+                <button class="dropbtn hovernav">SERVICES</button>
+                <div class="dropdown-content">
+                    <a href="/donate">Donate</a>
+                    <a href="/request">Request</a>
+                </div>
+            </div>
+            <a href="#about" scroll-behavior: smooth class="hovernav">ABOUT</a>
+            <a href="#" target="_blank" class="hovernav">CONTACT</a>
+        </nav>
+        <div class="menubtn">
+            <button type="button" class="menuButton pointer" style="margin-left:10%"> PROFILE</button>
+        </div>
+    </div>
+    <div class="search">
+        <p >Search For Medicines You Need </p>
+    </div>
+        <br><br>
+        <form class="example" action="/request" style="margin:auto;max-width:300px" method="post">
+        <input type="text" placeholder="Search Medicine" name="med" style="background-color: #fff;">
+        <button type="submit" name="but" value="med"><i class="fa fa-search"></i></button>
+        </form>
+        <br><br>
+    <div class="search"> 
+        <p >Search For Blood Group Required</p>
+    </div>
+        <br><br>
+        <form class="example" action="/request" style="margin:auto;max-width:300px" method="post">
+        <!-- <input type="text" placeholder="Search Blood Group" name="blood"> -->
+        <div class="bd">
+        <div class="BloodGroups" , id="BloodMoney" >
+            
+            <select id="BloodGrp" , style="width:15rem;height:2.5rem" name="Bloodgrp">
+            <option value="O+" selected>O+</option>
+            <option value="O-">O-</option>
+            <option value="A+">A+</option>
+            <option value="A-">A-</option>
+            <option value="B+">B+</option>
+            <option value="B-">B-</option>
+            <option value="AB+">AB+</option>
+            <option value="AB-">AB-</option>
+            
+            
+            
+            
+        </select>
+        </div>
+       
+        <button type="submit" name="but" value="blood"><i class="fa fa-search"></i></button>
+    </div>
+        </form>
+        <center>
+            <h2 font-weight = heavy style="margin-top:2rem"  >Medicine Donors List</h2>
+            <div class="result">
+                <table class="table table-bordered">
+                       <tr>
+                        <th>Medicine</th>
+                        <th>Name</th>
+                        <th>Contact Number</th>
+                        <th>Address</th>
+                        <th>Expiry Date</th>
+                    </tr>
+                    
+                        <% for (var i=0;i<items.length;i++){%>
+                            <% for(var j=0;j<items[i].medList.length;j++){%>
+                                <% if(items[i].medList[j].medname===med){%>
+                                    
+                            <tr>         
+                           <td><%=med%></td>
+                            <td><%=items[i].name%></td>
+                            <td><%=items[i].phone%></td>
+                            <td><%=items[i].address%></td>
+                            <td><%=items[i].medList[j].expirydate%></td>
+                            </tr>
+                                <%}%>
+                            <%}%>
+                        <%}%>
+        
+                    
+                </table>
+            </div>
+        </center>  
+        <br><br>
+          <center>
+            <h2 font-weight = heavy text-align:  >Blood Donors List</h2>
+            <div class="result">
+                <table class="table table-bordered">
+                    <tr>
+                        <th>Blood Group</th>
+                        <th>Name</th>
+                        <th>Contact Number</th>
+                        <th>Address</th>
+                    </tr>
+                    <% for (var i=0;i<items2.length;i++){%>
+                       
+                          
+                                
+                        <tr>         
+                       <td><%=bg%></td>
+                        <td><%=items2[i].name%></td>
+                        <td><%=items2[i].phone%></td>
+                        <td><%=items2[i].address%></td>
+                        </tr>
+                            
+                    <%}%>
+                    
+                </table>
+            </div>
+        </center>
+        
+    
+    </body>
+    <style>
+    table
+    {
+        border: 1px solid;
+        border-collapse: collapse;
+        text-align: center;
+        width:70rem;
+        padding : 10px;
+        font-size: 18px;
+        background-color: rgb(240, 233, 233);
+        
+    }
+    th{
+        border: 1px solid;
+        border-collapse: collapse;
+        text-align: center;
+        width:70rem;
+        padding : 10px;
+        font-size: 18px;
+    }
+    </style>
+
+
+
+</html>

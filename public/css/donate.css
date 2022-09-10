@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+div.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    display: flex;
+    width: 40;
+    margin: 10px auto 0px auto
+}
+
+.Enter-name {
+    display: block;
+    margin-top: 1.5rem;
+}
+
+h2 {
+    text-align: center;
+    padding: 20;
+}
+
+div.details {
+    width: 50%;
+    font-size: 18px;
+    border: radius 10px;
+    background-color: #fff;
+    border-radius: 2rem;
+    border: 1px solid rgb(0, 0, 0)
+}
+
+form#detailss {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+}
+
+label {
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+input#name,
+#number,
+#address,
+#Test_DatetimeLocal {
+    width: 30rem;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    padding: 7px;
+    outline: 0;
+    background-color: #fff;
+    box-shadow: inset 1px 1px 5px rgba(23, 3, 96, 0.3);
+    border: 1px solid black
+}
+
+.checkboxx {
+    margin-top: 1rem;
+    margin-left: 20rem;
+    display: flex;
+}
+
+input#submit {
+    width: 20rem;
+    padding: 7px;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(193, 151, 13);
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid black
+}
+
+.BloodGroups {
+    margin-top: 2rem;
+   
+}
+

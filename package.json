@@ -1,0 +1,31 @@
+{
+  "name": "uiet_hackathon",
+  "description": "",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ujjawal0305/UIET_Hackathon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": "16.15.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "heroku": "^7.63.0",
+    "mongoose": "^6.6.0",
+    "nodemon": "^2.0.19",
+    "sweetalert2": "^11.4.32"
+  },
+  "bugs": {
+    "url": "https://github.com/ujjawal0305/UIET_Hackathon/issues"
+  },
+  "homepage": "https://github.com/ujjawal0305/UIET_Hackathon#readme"
+}
