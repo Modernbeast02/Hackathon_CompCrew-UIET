@@ -3,7 +3,12 @@ Track: Healthcare
 **Welcome To Medonate!!**  
  
 This is the platform where you can volunteer to donate the medicines that not into your use to those who do not afford them or are in emergency. Accompanied by this you can also step foward to donate your blood.
-Every year medicines worth billions of dollars gets expiered  . This platform is made for the nobel cause where those who need the medicines or blood canconnect to those who are willing to donate. Even if small number of paitents get Medonate's benefit, its purpose would be fulfilled!!
+Every year medicines worth billions of dollars gets expiered  . This platform is made for the nobel cause where those who need the medicines or blood canconnect to those who are willing to donate. Even if small number of paitents get Medonate's benefit, its purpose would be fulfilled!!  
+
+Future :  
+1.) Connecting Donor and Reciever by a chating interface.  
+2.) Maintaing a feedback system where reciever will rate the donor if he was genuine or not to reduce risk of malpractices.  
+
 
 
 Team Name: CompCrew  
